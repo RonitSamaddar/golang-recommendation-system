@@ -5,16 +5,18 @@ Building a show or content recommendation system involves collecting user prefer
 
 1. Data Collection and Storage:
 
-Integrate with a movie/show database API like The Movie Database (TMDB) or the IMDb API to gather information about movies, TV shows, genres, ratings, and user reviews.
-Store the content data locally in a database or cache to reduce API calls and improve response times.
+ Integrate with a movie/show database API like The Movie Database (TMDB) or the IMDb API to gather information about movies, TV shows, genres, ratings, and user reviews.
+ Store the content data locally in a database or cache to reduce API calls and improve response times.
+
 2. User Profiling:
 
-Allow users to create accounts or sign in to the platform to capture their preferences and viewing history.
-Store user interactions, such as liked movies, disliked movies, and watched movies, in a database associated with each user.
+ Allow users to create accounts or sign in to the platform to capture their preferences and viewing history.
+ Store user interactions, such as liked movies, disliked movies, and watched movies, in a database associated with each user.
+
 3. Content Analysis:
 
-Utilize natural language processing (NLP) techniques to analyze movie/show descriptions and user reviews. Extract keywords and sentiment analysis to understand the content better.
-Implement collaborative filtering algorithms to find similar users and content. This approach helps to recommend shows based on users with similar interests.
+ Utilize natural language processing (NLP) techniques to analyze movie/show descriptions and user reviews. Extract keywords and sentiment analysis to understand the content better.
+ Implement collaborative filtering algorithms to find similar users and content. This approach helps to recommend shows based on users with similar interests.
 4. Personalized Recommendations:
 
 Use machine learning algorithms to build user profiles and generate personalized recommendations based on user behavior and content analysis.
